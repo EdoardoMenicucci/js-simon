@@ -50,11 +50,11 @@ setTimeout(function () {
     for (let i = 0; i < 5; i++) {
         if (cinqueNumeri.includes(numeriUtente[i])) {
             arrayIndovinati.push(numeriUtente[i])
-            esito.innerText += `Hai indovinato ${numeriUtente[i]}!;`
+            esito.innerText += ` Hai indovinato ${numeriUtente[i]}!;`
             numeriIndovinati += 1
         } else {
             arrayNonIndovinati.push(numeriUtente[i])
-            esito.innerText += `NON hai indovinato ${numeriUtente[i]}!;`
+            esito.innerText += ` NON hai indovinato ${numeriUtente[i]}!;`
         }
 
     }

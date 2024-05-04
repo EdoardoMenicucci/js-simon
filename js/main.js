@@ -62,7 +62,7 @@ setTimeout(function () {
     if (numeriIndovinati == 5) {
         perfetto = `LI HAI INDOVINATI TUTTI! BRAVO!`
     } else {
-        perfetto = `HAI SBAGLIATO: ${arrayNonIndovinati}, erano: ${cinqueNumeri}. Riprova aggiornando la pagina!`
+        perfetto = `HAI SBAGLIATO: ${arrayNonIndovinati}, HAI INDOVINATO: ${arrayIndovinati}; i numeri erano: ${cinqueNumeri}. Riprova aggiornando la pagina!`
     }
 
     altreInfo.innerText += perfetto;
